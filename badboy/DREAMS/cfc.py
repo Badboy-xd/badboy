@@ -1,4 +1,4 @@
-from Noinoi.config import API_HASH, API_ID, BOT_TOKEN, SESSION_NAME
+from •ᴮᴬᴰʙᴏʏツ.config import API_HASH, API_ID, BOT_TOKEN, SESSION_NAME
 from pyrogram import Client
 from pytgcalls import PyTgCalls
 
@@ -7,7 +7,7 @@ bot = Client(
     API_ID,
     API_HASH,
     bot_token=BOT_TOKEN,
-    plugins={"root": "Noinoi"},
+    plugins={"root": "•ᴮᴬᴰʙᴏʏツ"},
 )
 
 user = Client(
